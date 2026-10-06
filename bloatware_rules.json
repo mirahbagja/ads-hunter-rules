@@ -1,0 +1,529 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-10-06",
+  "categories": {
+    "recommended": {
+      "id": "recommended",
+      "label": "Bebas Dihapus",
+      "badge": "Bebas Dihapus",
+      "description": "Aman dicopot. Bloatware, analitik, atau aplikasi iklan pihak ketiga tanpa dampak buruk pada sistem HP.",
+      "color": "#0284C7",
+      "bg_color": "#082F49",
+      "border_color": "#0284C7",
+      "can_freeze": true,
+      "can_uninstall": true,
+      "warning_level": 1
+    },
+    "advanced": {
+      "id": "advanced",
+      "label": "Sistem Sekunder",
+      "badge": "Sistem Sekunder",
+      "description": "Perlu kehati-hatian. Layanan sistem sekunder yang aman jika fungsinya diganti aplikasi alternatif.",
+      "color": "#D97706",
+      "bg_color": "#78350F",
+      "border_color": "#D97706",
+      "can_freeze": true,
+      "can_uninstall": true,
+      "warning_level": 2
+    },
+    "expert": {
+      "id": "expert",
+      "label": "Khusus Mahir",
+      "badge": "Khusus Mahir",
+      "description": "Khusus berpengalaman. Mematikan aplikasi ini dapat menghilangkan fitur antarmuka atau tema OS.",
+      "color": "#EA580C",
+      "bg_color": "#7C2D12",
+      "border_color": "#EA580C",
+      "can_freeze": true,
+      "can_uninstall": false,
+      "warning_level": 3
+    },
+    "unsafe": {
+      "id": "unsafe",
+      "label": "Inti Dilindungi",
+      "badge": "🔒 Inti Dilindungi",
+      "description": "Komponen inti sistem operasi Android. Dilindungi dari penghapusan demi keamanan ponsel.",
+      "color": "#64748B",
+      "bg_color": "#1E293B",
+      "border_color": "#475569",
+      "can_freeze": false,
+      "can_uninstall": false,
+      "warning_level": 4
+    }
+  },
+  "curated_packages": {
+    "com.miui.analytics": {
+      "name": "MIUI Analytics Daemon",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Layanan pelacak analitik dan telemetri latar belakang Xiaomi. Sangat aman dihapus/dibekukan."
+    },
+    "com.miui.msa.global": {
+      "name": "MIUI System Ads (MSA)",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Penyedia iklan utama pada aplikasi sistem MIUI. Sumber utama pop-up dan banner iklan. Sangat direkomendasikan untuk dihapus."
+    },
+    "com.xiaomi.discover": {
+      "name": "Mi App Mall / Discover",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Toko aplikasi bawaan Xiaomi (GetApps) yang sering menampilkan notifikasi promosi iklan agresif."
+    },
+    "com.xiaomi.mipicks": {
+      "name": "GetApps (Mi Picks)",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "App store pihak ketiga Xiaomi. Aman dicopot jika Anda menggunakan Google Play Store."
+    },
+    "com.miui.yellowpage": {
+      "name": "MIUI YellowPage",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Layanan pencarian nomor telepon komersial lokal di Tiongkok/India. Tidak berguna di sebagian besar wilayah."
+    },
+    "com.miui.videoplayer": {
+      "name": "Mi Video Player",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Pemutar video bawaan yang dipenuhi rekomendasi konten online dan iklan."
+    },
+    "com.miui.player": {
+      "name": "Mi Music",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Pemutar musik bawaan dengan streaming online dan iklan pop-up."
+    },
+    "com.mi.globalbrowser": {
+      "name": "Mi Browser Pro",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Peramban web bawaan Xiaomi yang penuh iklan berita dan pelacak."
+    },
+    "com.miui.bugreport": {
+      "name": "MIUI Bug Report",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Layanan pengirim laporan log bug Xiaomi yang mengonsumsi baterai di latar belakang."
+    },
+    "com.miui.hybrid": {
+      "name": "Quick Apps Service",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Layanan aplikasi instan tanpa instalasi Xiaomi yang berisiko privasi."
+    },
+    "com.miui.hybrid.accessory": {
+      "name": "Quick Apps Accessory",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Komponen pelengkap Quick Apps."
+    },
+    "com.miui.translation.kingsoft": {
+      "name": "Kingsoft Translation",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Layanan kamus pihak ketiga bawaan MIUI."
+    },
+    "com.miui.cleanmaster": {
+      "name": "Clean Master SDK",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Mesin pembersih bawaan berbasis Cheetah Mobile. Disarankan dibekukan."
+    },
+    "com.miui.compass": {
+      "name": "Kompas MIUI",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Utilitas kompas bawaan."
+    },
+    "com.miui.weather2": {
+      "name": "Cuaca MIUI",
+      "category": "recommended",
+      "vendor": "Xiaomi",
+      "desc": "Aplikasi cuaca bawaan Xiaomi."
+    },
+    "com.miui.notes": {
+      "name": "Catatan MIUI",
+      "category": "advanced",
+      "vendor": "Xiaomi",
+      "desc": "Aplikasi catatan bawaan. Aman dicopot jika Anda memakai Google Keep atau alternatif lain."
+    },
+    "com.miui.calculator": {
+      "name": "Kalkulator MIUI",
+      "category": "advanced",
+      "vendor": "Xiaomi",
+      "desc": "Kalkulator bawaan."
+    },
+    "com.miui.screenrecorder": {
+      "name": "Perekam Layar MIUI",
+      "category": "advanced",
+      "vendor": "Xiaomi",
+      "desc": "Perekam layar bawaan."
+    },
+    "com.miui.cloudservice": {
+      "name": "Xiaomi Cloud Service",
+      "category": "advanced",
+      "vendor": "Xiaomi",
+      "desc": "Sinkronisasi cloud Xiaomi. Aman jika Anda tidak menggunakan sinkronisasi akun Mi."
+    },
+    "com.miui.micloudsync": {
+      "name": "Mi Cloud Sync",
+      "category": "advanced",
+      "vendor": "Xiaomi",
+      "desc": "Komponen sinkronisasi Mi Cloud."
+    },
+    "com.android.thememanager": {
+      "name": "Pengelola Tema MIUI",
+      "category": "expert",
+      "vendor": "Xiaomi",
+      "desc": "Pengubah tema, ikon, dan wallpaper. Jika dicopot, wallpaper dan font tidak bisa diganti dari menu setelan."
+    },
+    "com.miui.securityadd": {
+      "name": "Security Center Plugin",
+      "category": "expert",
+      "vendor": "Xiaomi",
+      "desc": "Plugin pembantu Keamanan MIUI. Hati-hati saat menonaktifkan."
+    },
+    "com.miui.securitycenter": {
+      "name": "Keamanan MIUI (Security Core)",
+      "category": "unsafe",
+      "vendor": "Xiaomi",
+      "desc": "JANGAN DIHAPUS! Mengontrol perizinan aplikasi, baterai, dan proteksi MIUI. Menghapusnya menyebabkan BOOTLOOP."
+    },
+    "com.miui.home": {
+      "name": "MIUI System Launcher",
+      "category": "unsafe",
+      "vendor": "Xiaomi",
+      "desc": "JANGAN DIHAPUS kecuali Anda sudah menginstal dan menyetel launcher pengganti default."
+    },
+    "com.facebook.katana": {
+      "name": "Facebook",
+      "category": "recommended",
+      "vendor": "Meta",
+      "desc": "Aplikasi Facebook utama. Aman dicopot atau dipasang ulang lewat Play Store."
+    },
+    "com.facebook.system": {
+      "name": "Facebook App Installer",
+      "category": "recommended",
+      "vendor": "Meta",
+      "desc": "Layanan latar belakang sistem Meta untuk update otomatis Facebook tanpa izin pengguna. Sangat aman dicopot."
+    },
+    "com.facebook.appmanager": {
+      "name": "Facebook App Manager",
+      "category": "recommended",
+      "vendor": "Meta",
+      "desc": "Pengelola aplikasi latar belakang Meta. Aman dicopot."
+    },
+    "com.facebook.services": {
+      "name": "Facebook Services",
+      "category": "recommended",
+      "vendor": "Meta",
+      "desc": "Layanan analitik dan sinkronisasi Meta latar belakang. Sangat aman dicopot."
+    },
+    "com.google.android.youtube": {
+      "name": "YouTube",
+      "category": "recommended",
+      "vendor": "Google",
+      "desc": "Aplikasi streaming YouTube. Aman dicopot jika menggunakan NewPipe, Revanced, atau browser."
+    },
+    "com.google.android.apps.tachyon": {
+      "name": "Google Meet (Duo)",
+      "category": "recommended",
+      "vendor": "Google",
+      "desc": "Aplikasi panggilan video Google Meet. Aman dicopot jika tidak dipakai."
+    },
+    "com.google.android.apps.photos": {
+      "name": "Google Foto",
+      "category": "recommended",
+      "vendor": "Google",
+      "desc": "Aplikasi galeri cloud Google. Aman dicopot jika ada galeri bawaan lokal."
+    },
+    "com.google.android.music": {
+      "name": "Google Play Musik",
+      "category": "recommended",
+      "vendor": "Google",
+      "desc": "Layanan musik lama Google (usang). Aman dicopot."
+    },
+    "com.google.android.videos": {
+      "name": "Google TV (Play Film)",
+      "category": "recommended",
+      "vendor": "Google",
+      "desc": "Aplikasi sewa film Google TV. Aman dicopot."
+    },
+    "com.google.android.apps.docs": {
+      "name": "Google Drive",
+      "category": "recommended",
+      "vendor": "Google",
+      "desc": "Klien Google Drive. Aman dicopot jika tidak digunakan."
+    },
+    "com.google.android.apps.podcasts": {
+      "name": "Google Podcasts",
+      "category": "recommended",
+      "vendor": "Google",
+      "desc": "Layanan podcast usang. Aman dicopot."
+    },
+    "com.android.chrome": {
+      "name": "Google Chrome",
+      "category": "advanced",
+      "vendor": "Google",
+      "desc": "Peramban Google Chrome. Pastikan memiliki browser lain sebelum menghapus."
+    },
+    "com.google.android.gm": {
+      "name": "Gmail",
+      "category": "advanced",
+      "vendor": "Google",
+      "desc": "Aplikasi email Gmail resmi. Aman dicopot jika memakai alternatif."
+    },
+    "com.google.android.apps.maps": {
+      "name": "Google Maps",
+      "category": "advanced",
+      "vendor": "Google",
+      "desc": "Navigasi peta Google Maps."
+    },
+    "com.google.android.feedback": {
+      "name": "Market Feedback Agent",
+      "category": "advanced",
+      "vendor": "Google",
+      "desc": "Laporan crash Google Play."
+    },
+    "com.google.android.tts": {
+      "name": "Google Speech Recognition & TTS",
+      "category": "advanced",
+      "vendor": "Google",
+      "desc": "Mesin teks-ke-suara Google."
+    },
+    "com.google.android.googlequicksearchbox": {
+      "name": "Google App (Search & Assistant)",
+      "category": "expert",
+      "vendor": "Google",
+      "desc": "Mesin pencarian Google dan widget bar di layar beranda. Jika dicopot, bilah pencarian dan Assistant akan nonaktif."
+    },
+    "com.google.android.webview": {
+      "name": "Android System WebView",
+      "category": "expert",
+      "vendor": "Google",
+      "desc": "Rendering web di dalam aplikasi. JANGAN DICOPOT kecuali Chrome aktif sebagai penyedia webview cadangan."
+    },
+    "com.google.android.inputmethod.latin": {
+      "name": "Gboard (Google Keyboard)",
+      "category": "expert",
+      "vendor": "Google",
+      "desc": "Papan ketik virtual. JANGAN DICOPOT kecuali sudah menginstal keyboard cadangan!"
+    },
+    "com.google.android.gms": {
+      "name": "Layanan Google Play (GMS Core)",
+      "category": "unsafe",
+      "vendor": "Google",
+      "desc": "JANGAN DIHAPUS! Inti sinkronisasi, notifikasi push FCM, lokasi, dan verifikasi keamanan Android. Menghapusnya merusak sebagian besar aplikasi."
+    },
+    "com.android.vending": {
+      "name": "Google Play Store",
+      "category": "unsafe",
+      "vendor": "Google",
+      "desc": "Toko aplikasi resmi Google. Mencopotnya dapat menimbulkan crash berkepanjangan pada GMS Core."
+    },
+    "com.samsung.android.bixby.agent": {
+      "name": "Samsung Bixby Voice Agent",
+      "category": "recommended",
+      "vendor": "Samsung",
+      "desc": "Asisten suara Bixby Samsung. Aman dicopot jika Anda tidak memakai Bixby."
+    },
+    "com.samsung.android.bixby.wakeup": {
+      "name": "Samsung Bixby Wakeup",
+      "category": "recommended",
+      "vendor": "Samsung",
+      "desc": "Layanan pendengar suara 'Hi Bixby' yang menguras baterai."
+    },
+    "com.samsung.android.game.gamehome": {
+      "name": "Samsung Game Launcher",
+      "category": "recommended",
+      "vendor": "Samsung",
+      "desc": "Pusat game bawaan Samsung yang menyajikan iklan."
+    },
+    "com.samsung.android.app.spage": {
+      "name": "Samsung Free (Bixby Home)",
+      "category": "recommended",
+      "vendor": "Samsung",
+      "desc": "Panel berita dan iklan di sebelah kiri beranda Samsung."
+    },
+    "com.sec.android.app.sbrowser": {
+      "name": "Samsung Internet Browser",
+      "category": "recommended",
+      "vendor": "Samsung",
+      "desc": "Peramban web Samsung. Aman jika Anda memakai browser lain."
+    },
+    "com.samsung.android.kidsinstaller": {
+      "name": "Samsung Kids Installer",
+      "category": "recommended",
+      "vendor": "Samsung",
+      "desc": "Instaler mode anak-anak."
+    },
+    "com.samsung.android.voc": {
+      "name": "Samsung Members",
+      "category": "recommended",
+      "vendor": "Samsung",
+      "desc": "Komunitas dan promosi Samsung."
+    },
+    "com.samsung.android.calendar": {
+      "name": "Samsung Kalender",
+      "category": "advanced",
+      "vendor": "Samsung",
+      "desc": "Aplikasi kalender bawaan Samsung."
+    },
+    "com.samsung.android.app.notes": {
+      "name": "Samsung Notes",
+      "category": "advanced",
+      "vendor": "Samsung",
+      "desc": "Aplikasi catatan Samsung."
+    },
+    "com.samsung.android.scloud": {
+      "name": "Samsung Cloud Sync",
+      "category": "advanced",
+      "vendor": "Samsung",
+      "desc": "Sinkronisasi cloud Samsung."
+    },
+    "com.samsung.android.app.cocktailbarservice": {
+      "name": "Edge Panels (Samsung Edge)",
+      "category": "expert",
+      "vendor": "Samsung",
+      "desc": "Panel samping melengkung Samsung Edge."
+    },
+    "com.samsung.android.smartmirroring": {
+      "name": "Smart View (Screen Cast)",
+      "category": "expert",
+      "vendor": "Samsung",
+      "desc": "Pencerminan layar ke Smart TV."
+    },
+    "com.sec.android.app.launcher": {
+      "name": "One UI Home (Samsung Launcher)",
+      "category": "unsafe",
+      "vendor": "Samsung",
+      "desc": "JANGAN DIHAPUS! Launcher utama antarmuka Samsung One UI."
+    },
+    "android": {
+      "name": "Android Core Framework",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DISENTUH! Inti sistem operasi Android. Modifikasi akan menyebabkan kerusakan fatal."
+    },
+    "com.android.systemui": {
+      "name": "System UI (Bilah Status & Navigasi)",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Menampilkan bilah notifikasi, status bar, tombol navigasi, dan layar kunci."
+    },
+    "com.android.settings": {
+      "name": "Pengaturan Android (Settings)",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Menu pengaturan utama perangkat."
+    },
+    "com.android.phone": {
+      "name": "Layanan Telepon (Phone Core)",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Mengontrol radio seluler, panggilan suara, sinyal SIM card."
+    },
+    "com.android.server.telecom": {
+      "name": "Telecom Framework",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Kerangka kerja manajemen panggilan telepon."
+    },
+    "com.android.providers.telephony": {
+      "name": "Penyedia Telepon & SMS",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Database penyimpanan SMS dan konfigurasi APN internet."
+    },
+    "com.android.providers.settings": {
+      "name": "Penyedia Setelan Sistem",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Basis data penyimpanan preferensi OS Android."
+    },
+    "com.android.packageinstaller": {
+      "name": "Package Installer",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Penginstal dan pengelola izin aplikasi Android."
+    },
+    "com.google.android.packageinstaller": {
+      "name": "Google Package Installer",
+      "category": "unsafe",
+      "vendor": "Google",
+      "desc": "JANGAN DIHAPUS! Komponen penting pemasang paket aplikasi."
+    },
+    "com.android.permissioncontroller": {
+      "name": "Permission Controller",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Mengontrol privasi perizinan kamera, mikrofon, dan lokasi."
+    },
+    "com.android.keyguard": {
+      "name": "Keyguard (Layar Kunci)",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Modul pengaman layar kunci."
+    },
+    "com.android.bluetooth": {
+      "name": "Bluetooth Core Service",
+      "category": "unsafe",
+      "vendor": "Android",
+      "desc": "JANGAN DIHAPUS! Driver dan layanan konektivitas Bluetooth."
+    },
+    "com.sentinel.bridge": {
+      "name": "APK Sentinel Bridge Agent",
+      "category": "advanced",
+      "vendor": "Sentinel",
+      "desc": "Agen pendamping analisis dan deteksi pop-up live untuk PC ini."
+    }
+  },
+  "heuristics": {
+    "unsafe_patterns": [
+      "^android$",
+      "^com\\.android\\.systemui",
+      "^com\\.android\\.settings",
+      "^com\\.android\\.phone",
+      "^com\\.android\\.providers\\.telephony",
+      "^com\\.android\\.providers\\.settings",
+      "^com\\.android\\.keyguard",
+      "^com\\.android\\.packageinstaller",
+      "^com\\.android\\.permissioncontroller",
+      "^com\\.google\\.android\\.gms",
+      "^com\\.qualcomm\\.qti\\.",
+      "^com\\.mediatek\\.",
+      "^com\\.sec\\.android\\.provider\\.badge",
+      "^com\\.miui\\.securitycenter"
+    ],
+    "expert_patterns": [
+      "^com\\.android\\.bluetooth",
+      "^com\\.android\\.nfc",
+      "^com\\.android\\.inputmethod",
+      "^com\\.google\\.android\\.inputmethod",
+      "^com\\.android\\.launcher",
+      "^com\\.miui\\.home",
+      "^com\\.sec\\.android\\.app\\.launcher",
+      "^com\\.google\\.android\\.webview",
+      "printspooler",
+      "printservice"
+    ],
+    "recommended_patterns": [
+      "analytics",
+      "telemetry",
+      "tracker",
+      "adservice",
+      "cleanmaster",
+      "yellowpage",
+      "discover",
+      "msa\\.global",
+      "facebook\\.appmanager",
+      "facebook\\.services",
+      "facebook\\.system",
+      "mipicks",
+      "gamehome",
+      "bixby",
+      "bloatware"
+    ]
+  }
+}
