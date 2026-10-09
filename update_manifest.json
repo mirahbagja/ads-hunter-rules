@@ -1,9 +1,9 @@
 {
-  "bloatware_version": "1.0.0",
+  "bloatware_version": "1.0.1",
   "bloatware_rules_url": "https://raw.githubusercontent.com/mirahbagja/ads-hunter-rules/main/bloatware_rules.json",
   "ad_signatures_version": "1.0.0",
   "ad_signatures_url": "https://raw.githubusercontent.com/mirahbagja/ads-hunter-rules/main/ad_threat_signatures.json",
   "min_app_version": "2.1.0",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-09",
   "changelog": "Rilis awal sistem definisi kurasi dan ad threat intelligence eksternal untuk Ads-Hunter v2.1.0."
 }
