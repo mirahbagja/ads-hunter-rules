@@ -1,9 +1,9 @@
 {
   "bloatware_version": "1.1.0",
   "bloatware_rules_url": "https://raw.githubusercontent.com/mirahbagja/ads-hunter-rules/main/bloatware_rules.json",
-  "ad_signatures_version": "1.1.0",
+  "ad_signatures_version": "1.1.1",
   "ad_signatures_url": "https://raw.githubusercontent.com/mirahbagja/ads-hunter-rules/main/ad_threat_signatures.json",
   "min_app_version": "2.1.0",
   "last_updated": "2026-10-09",
-  "changelog": "Rilis v1.1.0: Menambahkan Transsion Ad Service, MIUI MSA, dan domain Xiaomi Global Ad Tracker."
+  "changelog": "Rilis v1.1.1: Menambahkan Transsion Ad Service, MIUI MSA, dan domain Xiaomi Global Ad Tracker, Dokumentasi AppLovin MAX."
 }
