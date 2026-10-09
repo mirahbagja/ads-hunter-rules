@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-10-06",
+  "version": "1.1.0",
+  "last_updated": "2026-10-09",
   "categories": {
     "recommended": {
       "id": "recommended",
@@ -59,10 +59,11 @@
       "desc": "Layanan pelacak analitik dan telemetri latar belakang Xiaomi. Sangat aman dihapus/dibekukan."
     },
     "com.miui.msa.global": {
-      "name": "MIUI System Ads (MSA)",
+      "name": "MIUI System Ad Solution (MSA)",
       "category": "recommended",
-      "vendor": "Xiaomi",
-      "desc": "Penyedia iklan utama pada aplikasi sistem MIUI. Sumber utama pop-up dan banner iklan. Sangat direkomendasikan untuk dihapus."
+      "description": "Modul penyaji iklan sistem utama MIUI / HyperOS Xiaomi.",
+      "recommendation": "disable",
+      "safety_rating": "safe_to_disable"
     },
     "com.xiaomi.discover": {
       "name": "Mi App Mall / Discover",
@@ -477,6 +478,13 @@
       "category": "advanced",
       "vendor": "Sentinel",
       "desc": "Agen pendamping analisis dan deteksi pop-up live untuk PC ini."
+    },
+    "com.transsion.ad.service": {
+      "name": "Transsion Ad & Promo Service",
+      "category": "recommended",
+      "description": "Layanan promosi dan pop-up adware sistem pada ponsel Infinix / Tecno / Itel.",
+      "recommendation": "disable",
+      "safety_rating": "safe_to_disable"
     }
   },
   "heuristics": {

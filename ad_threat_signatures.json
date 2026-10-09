@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-10-06",
+  "version": "1.1.0",
+  "last_updated": "2026-10-09",
   "tcp_states": {
     "01": "ESTABLISHED",
     "02": "SYN_SENT",
@@ -48,6 +48,8 @@
     "akamai": "Akamai CDN Edge",
     "aws": "Amazon Web Services",
     "amazonaws": "Amazon AWS Cloud",
-    "cloudfront": "Amazon CloudFront CDN"
+    "cloudfront": "Amazon CloudFront CDN",
+    "api.adkmob.com": "AdKMob Network",
+    "global.ad.xiaomi.com": "Xiaomi Global Ad Network"
   }
 }
